@@ -1,8 +1,10 @@
+import HeroSection from "@/components/HeroSection";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function Home() {
   return (
     <>
-       <h1>HOme</h1>
+       <HeroSection />
     </>
   );
 }
